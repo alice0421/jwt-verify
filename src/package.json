@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jwt": "dotenv -e .env.local -- npx ts-node jwt-verify.ts",
-    "aws-jwt": "dotenv -e .env.local -- npx ts-node aws-jwt-verify.ts"
+    "jwt": "dotenv -e .env -- npx ts-node jwt-verify.ts",
+    "aws-jwt": "dotenv -e .env -- npx ts-node aws-jwt-verify.ts"
   },
   "keywords": [],
   "author": "",
