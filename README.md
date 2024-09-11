@@ -1,6 +1,8 @@
 # やりたいこと
+※ 無料で検証可能。
+
 Amazon Cognito の User Poolの JSON ウェブトークン (JWT) を検証する。  
-※ User Pool のみ使用。ID Pool は不要。
+※ User Pool のみ使用。ID Pool は不要。  
 
 <br>
 <br>
