@@ -80,12 +80,6 @@ aws cognito-idp admin-set-user-password --user-pool-id "[COGNITO_USER_POOL_ID]" 
   - [Amazon Cognito JSON ウェブトークンの署名を復号して検証するにはどうすればよいですか?](https://repost.aws/ja/knowledge-center/decode-verify-cognito-json-token)
   - [Verifying a JSON Web Token](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html)で検証を要求している項目が、全てデフォルトで入っている。
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-# その他参考
+## その他参考
 - [[Node.js / TypeScript] Amazon CognitoのJWTをデコードする、JWTを作成してテストする](https://dev.classmethod.jp/articles/nodejs-typescript-decode-a-jwt-of-amazon-cognito-create-a-jwt-for-testing/)
   - jwt-decodeでJWTのデコードを行っている。JWTの検証はしていない。
