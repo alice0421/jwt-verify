@@ -1,5 +1,5 @@
 # やりたいこと
-Amazon Cognito の User Poolの JSON ウェブトークン (JWT) を検証する。
+Amazon Cognito の User Poolの JSON ウェブトークン (JWT) を検証する。  
 ※ User Pool のみ使用。ID Pool は不要。
 
 <br>
@@ -8,7 +8,7 @@ Amazon Cognito の User Poolの JSON ウェブトークン (JWT) を検証する
 <br>
 <br>
 
-# JWTの取得 ✓
+# JWTの取得
 `get-id-token.ts`
 
 Amazon Cognito の IDトークンは、JWTである ([Understanding the identity (ID) token](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-the-id-token.html))。
