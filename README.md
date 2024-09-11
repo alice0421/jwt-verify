@@ -69,11 +69,11 @@ aws cognito-idp admin-set-user-password --user-pool-id "[COGNITO_USER_POOL_ID]" 
       - `jwt-verify` は、デフォルトで有効期限切れか否かの確認をしてくれる（参考：[node-jsonwebtokeの検証処理についての流れを確認する](https://zenn.dev/maronn/articles/about-verify-in-node-jsonwebtoken)）。
         - option に `ignoreExpiration` の設定がわざわざある。
   2. IDトークンに含まれる aud クレームは、 App Client Id と一致している
-    - option の `audience` に、Cognito の App Client Id を設定することで、 aud の検証を追加できる。
+      - option の `audience` に、Cognito の App Client Id を設定することで、 aud の検証を追加できる。
   3. IDトークンに含まれる issur クレーム (iss) は、 User Pool (`https://cognito-idp.<region>.amazonaws.com/<userpoolID>`) と一致している
-    - option の `issure` に、Cognito の User Pool を設定することで、 issure の検証を追加できる。
+      - option の `issure` に、Cognito の User Pool を設定することで、 issure の検証を追加できる。
   4. token_use クレームの確認 (IDトークンのみを使用する場合、IDトークンの token_use クレームが id になっている)
-    - IDトークンのデコード結果は、 payload であり、その中に token_use があるので、チェックする。
+      - IDトークンのデコード結果は、 payload であり、その中に token_use があるので、チェックする。
 
 ## AWS JWT Verifyを使用
 - [AWS JWT Verify](https://github.com/awslabs/aws-jwt-verify?tab=readme-ov-file)
